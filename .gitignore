@@ -1,0 +1,17 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore secret settings file
+settings_secret.py
+
+# Ignore compiled CSS and JS files
+*.css
+*.js
+
+# Ignore media files (if you're using them)
+/media/
+
+# Ignore static files (if you're not using a separate static file hosting service)
+/static/
+!static/.keep
