@@ -2,16 +2,24 @@
 *.pyc
 __pycache__/
 
+# Ignore database files
+db.sqlite3
+
+# Ignore media and static files
+media/
+static/
+
 # Ignore secret settings file
 settings_secret.py
 
-# Ignore compiled CSS and JS files
-*.css
-*.js
+# Ignore environment files
+.env
+.env.local
+.env.dev
+.env.prod
 
-# Ignore media files (if you're using them)
-/media/
-
-# Ignore static files (if you're not using a separate static file hosting service)
-/static/
-!static/.keep
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
